@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload MRI Scan</title>
+    <link rel="stylesheet" href="static\style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Brain Tumor Detection</h2>
+        <p>Upload an MRI scan to check for a brain tumor.</p>
+
+        <form action="/predict" method="post" enctype="multipart/form-data">
+            <div class="file-upload">
+                <input type="file" name="file" accept="image/*" required>
+            </div>
+            <button type="submit">Detect Tumor</button>
+        </form>
+    </div>
+
+</body>
+</html>
