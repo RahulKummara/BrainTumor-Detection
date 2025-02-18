@@ -1,0 +1,8 @@
+Flask
+Jinja2
+numpy
+opencv-python
+pandas
+scikit-learn
+tensorflow
+Werkzeug
